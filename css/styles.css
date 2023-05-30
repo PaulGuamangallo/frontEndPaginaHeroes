@@ -1,0 +1,69 @@
+
+
+h1{
+    font-family: "Roboto";
+    font-size: 40px;
+    margin: 0;
+    padding-top: 2%;
+}
+.txtPromo{
+    padding-top: 1%;
+}
+h2{
+    margin: 0;
+}
+.barrPromo{
+    background-color: rgba(28, 209, 176, 1);
+    height: 40px;
+    padding-bottom: 0;
+    margin: 0;    
+}
+.barrBanner{
+    padding-top: 0;
+    background-color: rgba(0, 102, 159, 1);
+    height: 100px;
+    margin: 0;
+}
+h2{
+    font-size: 30px;
+}
+.heroe{
+    width: 300px;
+    display: inline-block;
+    background-color: rgba(243, 243, 243, 1);;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+main{
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: rgba(0, 102, 159, 1);
+    font-size: 15px;
+    width: 120px;
+    height: 45px;
+    border: none;
+}
+footer{
+    align-items: center;
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    font-size: 16px;
+    font-family: "Roboto";
+    height: 40px;
+}
+.fondo1{
+    background-repeat: no-repeat;
+}
+.pic{
+    border-radius:150px;
+}
+
+.infoH{
+    text-align: left;
+    padding: 12px;
+    font-size: 16;
+}
