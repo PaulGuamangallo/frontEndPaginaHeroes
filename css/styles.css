@@ -11,6 +11,7 @@ h1{
 }
 h2{
     margin: 0;
+    padding-top: 50px;
 }
 .barrPromo{
     background-color: rgba(28, 209, 176, 1);
@@ -35,6 +36,7 @@ h2{
     text-align: center;
     box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
     padding-bottom: 20px;
+    position: relative;
     
 }
 main{
@@ -61,12 +63,21 @@ footer{
 }
 .pic{
     border-radius:150px;
-    position: relative;
-    bottom: 60px;
+    position: absolute;
+    left: 90px;
+    top: 120px;
 }
 
 .infoH{
     text-align: left;
     padding: 12px;
     font-size: 16;
+}
+
+.fas{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+    color:rgba(204, 36, 36, 1);
 }
