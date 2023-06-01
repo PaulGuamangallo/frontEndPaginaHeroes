@@ -35,6 +35,7 @@ h2{
     text-align: center;
     box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
     padding-bottom: 20px;
+    
 }
 main{
     text-align: center;
@@ -60,6 +61,8 @@ footer{
 }
 .pic{
     border-radius:150px;
+    position: relative;
+    bottom: 60px;
 }
 
 .infoH{
