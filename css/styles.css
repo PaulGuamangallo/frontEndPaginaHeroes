@@ -1,7 +1,9 @@
-
-
-h1{
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+*{
     font-family: "Roboto";
+    margin: 0;
+}
+h1{
     font-size: 40px;
     margin: 0;
     padding-top: 2%;
@@ -9,6 +11,7 @@ h1{
 .txtPromo{
     padding-top: 1%;
 }
+
 h2{
     margin: 0;
     padding-top: 50px;
@@ -28,6 +31,25 @@ h2{
 h2{
     font-size: 30px;
 }
+h2#tForm{
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-size: 1.2em;
+    font-weight:lighter;
+}
+p.infoH{
+    color: black;
+    font-size: 1em;
+}
+div.liD{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .heroe{
     width: 300px;
     display: inline-block;
@@ -39,8 +61,44 @@ h2{
     position: relative;
     
 }
+button#btSubm{
+    background-color: rgba(28, 209, 176, 1);
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 1%;
+}
+label{
+    color: white;
+    margin: 2%;
+}
 main{
     text-align: center;
+}
+section#infoBody{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 8% 8%;
+    justify-content: center;
+}
+.campos{
+    width: 22vw;
+    border-radius: 5px;
+    border-style: none;
+}
+input.iName{
+    height: 40px;
+    
+}
+select.sEspecie{
+    height: 46px;
+}
+textarea.Desc{
+    margin-right: 5%;
+    height: 40vh;
 }
 button{
     color: white;
@@ -80,4 +138,9 @@ footer{
     left: 20px;
     font-size: 40px;
     color:rgba(204, 36, 36, 1);
+}
+form{
+    background-color: rgba(0, 102, 159, 1);
+    margin: 2% 10%;
+    border-radius: 25px;
 }

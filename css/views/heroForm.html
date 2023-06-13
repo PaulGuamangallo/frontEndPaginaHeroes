@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="barrPromo">
+            <p class="txtPromo">Descuentos 20%</p>
+        </section>
+        <section class="barrBanner">
+            <h1>Heroes</h1>
+        </section>
+        <section id="barr">
+            <nav>
+                <ul>
+                    <li>Contacto</li>
+                    <li>Registrarme</li>
+                    <li>Ingresar</li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <form action="">
+            <h2 id="tForm">Añadi tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <section id="infoBody">
+            <label for="iName">*Nombre<br>
+                <input name="Nombre" type="text" class="campos iName">
+            </label>
+            <label for="sEspecie">*Especie<br>
+                <select name="Nombre" class="campos sEspecie" >
+                    <option value="Humano">Humano</option>
+                    <option value="Amazona">Amazona</option>
+                    <option value="Kripton">Criptoniano</option>
+                </select> 
+            </label>
+            <label for="fec">Fecha<br>
+                <input name="Fecha" type="date" class="campos fec">
+            </label>
+            <label for="imgHero">Agregar Foto<br>
+                <input name="Imagen" type="file" class="campos imgHero">
+            </label>
+                <textarea name="heroDes" class="campos Desc"></textarea>
+            
+            
+                <div class="liD liPod">
+                    Poderes
+                    <label for="liVol"><input name="Poderes" type="checkbox" class="lisPodb liVol" value="Volar">Volar</label>
+                    <label for="liSupi"><input name="Poderes" type="checkbox" class="lisPod liSupi" value="Superinteligencia">Superinteligencia</label>
+                    <label for="liX"><input name="Poderes" type="checkbox" class="lisPod liX" value="Vista Rayos X">Vista de Rayo Laser</label>
+                    <label for="liVille"><input name="Poderes" type="checkbox" class="lisPod Ville" value="Villetera">Villetera Gorda</label>
+                </div>
+            
+            
+            <div class="liD liTip">
+                Tipo de Personaje
+                <label for="liHer">
+                    <input name="Etiq" type="radio" value="Her" class="liHer">Heroe/Heroina
+                </label>
+                <label for="liVill">
+                    <input name="Etiq" type="radio" value="Vill" class="liVill">Villano/villana 
+                </label>
+            </div>
+            </section>
+            <button type="submit" id="btSubm">Añadir</button>
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+    
+</body>
+</html>
